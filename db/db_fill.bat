@@ -1,0 +1,1 @@
+mysql -u root -p12345 --default-character-set=utf8 < db_fill.sql

@@ -1,0 +1,23 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.diplom</groupId>
+		<artifactId>at-base</artifactId>
+		<version>3.0.0</version>
+	</parent>
+
+	<artifactId>at</artifactId>
+	<packaging>pom</packaging>
+	<name>at</name>
+	
+	<modules>
+        <module>at-api</module>
+		<module>at-impl</module>
+		<module>at-frontend</module>
+	</modules>
+
+</project>
